@@ -6,7 +6,7 @@ text, to $MAKEFUN_OUTPUT_DIR/entry.txt (default /output/entry.txt).
 Pure standard library only.
 
 Why this line: a household toaster with a secret inner life — it has
-only two settings, warm bread and arson, and it picks one based on your
+only two settings, warm bread and arson, and it chooses based on your
 mood. The machine is not just broken, it is judging you, and the turn
 lands in the final words, in one read.
 """
@@ -14,7 +14,7 @@ lands in the final words, in one read.
 import os
 
 LINE = (
-    "My toaster has two settings: warm bread and arson, and it picks one based on my mood."
+    "My toaster has two settings: warm bread and arson, and it chooses based on my mood."
 )
 
 MAX_CHARS = 200
